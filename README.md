@@ -21,3 +21,14 @@ GET method is used to appends form data to the URL in name or value pair.GET is 
 and this part of code is responsible for make a connection to the database and insert the sensor value to the database.
 in this block of code A database connection is always required to interact with the database. that is why we use the identifier to access database,such aslocation of the database, database name, username, and password,as you see there is( try) if the connection is success or (catch )if the connection is fail PDOException object will be thrown if there is any connection error.
 then the insert query to insert data into the table in the database.
+Output
+----------
+![Screenshot (1092)](https://user-images.githubusercontent.com/108452991/182495964-19db9671-f32d-464d-b1d3-ac94f089c7d6.png)
+![Screenshot (1093)](https://user-images.githubusercontent.com/108452991/182495981-fc7b9a00-62e6-4696-bedb-668dde17c075.png)
+![Screenshot (1094)](https://user-images.githubusercontent.com/108452991/182495992-1a449fd7-974a-4888-a0c6-28dcc7eac253.png)
+
+Resources
+----------
+https://www.javatpoint.com/php-pdo
+https://www.guru99.com/difference-get-post-http.html
+https://www.w3schools.com/php/php_superglobals_get.asp
