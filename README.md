@@ -12,4 +12,7 @@ this part of code is a form that use get method have two inputs which are one to
 
 GET method is used to appends form data to the URL in name or value pair.GET is better for the data which does not require any security or having images or word documents.
 
+![Screenshot (1086)](https://user-images.githubusercontent.com/108452991/182485849-18da5d8a-df56-433e-83a1-f1c61d964c0f.png)
+and this part of code is responsible for make a connection to the database and insert the sensor value to the database.
+
 
