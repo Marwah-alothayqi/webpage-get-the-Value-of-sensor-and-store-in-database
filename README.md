@@ -20,4 +20,4 @@ GET method is used to appends form data to the URL in name or value pair.GET is 
 ![Screenshot (1087)](https://user-images.githubusercontent.com/108452991/182490847-35e2cb89-7e8a-4652-811e-61d59e0e12a7.png)
 and this part of code is responsible for make a connection to the database and insert the sensor value to the database.
 in this block of code A database connection is always required to interact with the database. that is why we use the identifier to access database,such aslocation of the database, database name, username, and password,as you see there is( try) if the connection is success or (catch )if the connection is fail PDOException object will be thrown if there is any connection error.
-
+then the insert query to insert data into the table in the database.
