@@ -10,17 +10,22 @@ first build a database:
 ![Screenshot (1090)](https://user-images.githubusercontent.com/108452991/182493227-ed75fab3-59e5-495d-9d2e-81a4e381febe.png)
 
 
+
+
 code explainer
 --------------
 this part of code is a form that use get method have two inputs which are one to enter the sensor value and a button to submit.
+
 ![Screenshot (1085)](https://user-images.githubusercontent.com/108452991/182484110-5470782b-6fce-4ee5-8208-fffad40cf646.png)
 
 GET method is used to appends form data to the URL in name or value pair.GET is better for the data which does not require any security or having images or word documents.
 
 ![Screenshot (1087)](https://user-images.githubusercontent.com/108452991/182490847-35e2cb89-7e8a-4652-811e-61d59e0e12a7.png)
+
 and this part of code is responsible for make a connection to the database and insert the sensor value to the database.
 in this block of code A database connection is always required to interact with the database. that is why we use the identifier to access database,such aslocation of the database, database name, username, and password,as you see there is( try) if the connection is success or (catch )if the connection is fail PDOException object will be thrown if there is any connection error.
 then the insert query to insert data into the table in the database.
+
 Output
 ----------
 ![Screenshot (1092)](https://user-images.githubusercontent.com/108452991/182495964-19db9671-f32d-464d-b1d3-ac94f089c7d6.png)
